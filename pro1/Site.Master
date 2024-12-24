@@ -16,7 +16,7 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 </head>
-<body>
+<body>  
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -50,6 +50,7 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/ClientManager">ClientManage</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/ProductManager">ProductMangager</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/sample">sample</a></li>
                     </ul>
                 </div>
             </div>

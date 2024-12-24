@@ -1,4 +1,5 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ClientManager.aspx.cs" Inherits="YourNamespace.ClientManager" %>
+﻿
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ClientManager.aspx.cs" Inherits="YourNamespace.ClientManager" %>
 <!DOCTYPE html>
 <html>
 <head runat="server">
@@ -12,9 +13,10 @@
 
             <!-- Form to Add/Update Clients -->
             <div class="card p-3 mb-3">
-                <div class="form-row">
+                <div class="form-row"> 
                     <div class="col-md-6 mb-3">
                         <label for="txtName">Name</label>
+
                         <asp:TextBox ID="txtName" CssClass="form-control" runat="server" placeholder="Enter Name"></asp:TextBox>
                     </div>
                     <div class="col-md-6 mb-3">
